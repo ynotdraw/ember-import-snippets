@@ -6,5 +6,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.1]
 - Initial release
 
-## [0.0.2]
-- Updated README to reflect the available snippets better
+## [0.1.0]
+- Updated README to reflect the available snippets
