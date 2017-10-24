@@ -3,5 +3,8 @@ All notable changes to the "ember-import-snippets" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.1]
 - Initial release
+
+## [0.0.2]
+- Updated README to reflect the available snippets better
