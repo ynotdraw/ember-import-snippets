@@ -1,0 +1,21 @@
+{
+    "name": "ember-import-snippets",
+    "displayName": "ember-import-snippets",
+    "description": "Ember RFC176 import snippets",
+    "version": "0.0.1",
+    "publisher": "YnotDraw",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

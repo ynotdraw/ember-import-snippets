@@ -1,0 +1,101 @@
+{
+	// ------------------------------
+	// Imports: getters/setters
+	// ------------------------------
+	"Import Getters/Setters": {
+		"prefix": "imp e getset",
+		"body": [
+			"import { ${1:get,} ${2:getProperties,} ${3:set,} ${4:setProperties} } from '@ember/object';"
+		],
+		"description": "Imports getters and setters from @ember/object"
+    },
+    "Import Getters": {
+		"prefix": "imp e get",
+		"body": [
+			"import { get, getProperties } from '@ember/object';"
+		],
+		"description": "Imports getters only from @ember/object"
+    },
+    "Import Setters": {
+		"prefix": "imp e set",
+		"body": [
+			"import { set, setProperties } from '@ember/object';"
+		],
+		"description": "Imports setters only from @ember/object"
+	},
+	// ------------------------------
+	// Imports: services
+	// ------------------------------
+	"Import inject as service": {
+		"prefix": "imp e service",
+		"body": [
+			"import { inject as service } from '@ember/service';"
+		],
+		"description": "Imports `inject as service` from @ember/service"
+	},
+	// ------------------------------
+	// Imports: computeds
+	// ------------------------------
+	"Import Computed": {
+		"prefix": "imp e computed",
+		"body": [
+			"import { computed } from '@ember/object';"
+		],
+		"description": "Imports `computed` from @ember/object"
+	},
+	"Import Frequent Computeds": {
+		"prefix": "imp e computed all",
+		"body": [
+			"import { ${1:alias,} ${2:readOnly,} ${3:and,} ${4:bool} } from '@ember/object/computed';"
+		],
+		"description": "Imports frequently used computed modules"
+	},
+	"Import Computed ReadOnly": {
+		"prefix": "imp e computed readonly",
+		"body": [
+			"import { readOnly } from '@ember/object/computed';"
+		],
+		"description": "Imports `readOnly` from @ember/object/computed"
+	},
+	"Import Alias": {
+		"prefix": "imp e computed alias",
+		"body": [
+			"import { alias } from '@ember/object/computed';"
+		],
+		"description": "Imports `alis` from @ember/object/computed"
+	},
+	// ------------------------------
+	// Imports: run loop
+	// ------------------------------
+	"Import Frequent RunLoop": {
+		"prefix": "imp e runloop",
+		"body": [
+			"import { ${1:bind}, ${2:later}, ${3:run} } from '@ember/runloop';"
+		],
+		"description": "Imports frequently used runloop modules"
+	},
+	// ------------------------------
+	// Imports: ember-concurrency
+	// ------------------------------
+	"Import Frequent Concurrency": {
+		"prefix": "imp e concurrency",
+		"body": [
+			"import { ${1:task}, ${2:timeout} } from 'ember-concurrency';"
+		],
+		"description": "Imports frequently used ember-concurrency modules"
+    },
+    "Import Concurrency Task": {
+		"prefix": "imp e concurrency task",
+		"body": [
+			"import { task } from 'ember-concurrency';"
+		],
+		"description": "Imports `task` from ember-concurrency"
+    },
+    "Import Concurrency Timeout": {
+		"prefix": "imp e concurrency timeout",
+		"body": [
+			"import { timeout } from 'ember-concurrency';"
+		],
+		"description": "Imports `timeout` from ember-concurrency"
+	}
+}
