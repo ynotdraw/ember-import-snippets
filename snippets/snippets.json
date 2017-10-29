@@ -1,4 +1,5 @@
 {
+	// From: https://github.com/ember-cli/ember-rfc176-data
 	// ------------------------------
 	// Imports: getters/setters
 	// ------------------------------
@@ -12,14 +13,14 @@
     "Import Getters": {
 		"prefix": "imp e get",
 		"body": [
-			"import { get, getProperties } from '@ember/object';"
+			"import { ${1:get,} ${2:getProperties} } from '@ember/object';"
 		],
 		"description": "Imports getters only from @ember/object"
     },
     "Import Setters": {
 		"prefix": "imp e set",
 		"body": [
-			"import { set, setProperties } from '@ember/object';"
+			"import { ${1:set,} ${2:setProperties} } from '@ember/object';"
 		],
 		"description": "Imports setters only from @ember/object"
 	},
